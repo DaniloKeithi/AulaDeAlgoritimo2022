@@ -13,3 +13,6 @@ https://scratch.mit.edu/projects/671447747
 
 Projeto Taxas alfandegarias:
 https://scratch.mit.edu/projects/663832844
+
+Projeto Jogo Tipo Mario:
+https://scratch.mit.edu/projects/674936504
