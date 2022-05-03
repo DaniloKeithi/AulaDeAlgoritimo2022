@@ -1,15 +1,15 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "comissaovenda"
+// FunÃ§Ã£o :digite o valor das peÃ§as e quantas foram vendidas para saber a comissÃ£o
+// Autor :Danilo Keithi Makiya Nakasone
 // Data : 03/05/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 precount, pvendidas, tvenda, comissao: real
 inicio
 //Entrada
-escreval("digite o valor unitario de cada peça")
+escreval("digite o valor unitario de cada peÃ§a")
 leia(precount)
-escreval("digite quantas peças foram vendidas")
+escreval("digite quantas peÃ§as foram vendidas")
 leia(pvendidas)
 
 //processamento
@@ -19,5 +19,5 @@ comissao <- tvenda*(5/100)
 
 //saida
 
-escreval("foram arrecadados R$", tvenda," e a comissão é de R$", comissao)
+escreval("foram arrecadados R$", tvenda," e a comissÃ£o Ã© de R$", comissao)
 fimalgoritmo
