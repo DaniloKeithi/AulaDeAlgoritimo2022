@@ -1,0 +1,42 @@
+algoritmo "triangulo_lógico"
+// Função : Verificar se é possivel fazer um triangulo com os numeros dados
+// e falar se ele é equilatero, isoceles ou escaleno
+// Autor : Danilo Keithi
+// Data : 21/06/2022
+// Seção de Declarações 
+var
+
+a, b, c : real
+triangulo, equi, iso, esc: logico
+
+inicio
+//entrada
+escreval("----------------------------------")
+escreval ("Digite o pirmeiro valor:")
+leia(a)
+escreval("----------------------------------")
+escreval ("Digite o segundo valor:")
+leia(b)
+escreval("----------------------------------")
+escreval ("Digite o terceiro valor:")
+leia(c)
+escreval("----------------------------------")
+
+
+//processamento
+
+triangulo <- (a<(b+c)) e (b<(a+c)) e (c<(a+b))
+equi <- (a=b) e (a=c) e (b=c)
+esc <- (a<>b) e (a<>c) e (b<>c) e triangulo
+iso <- ((a=b) e (a<>c)) ou ((a=c) e (a<>b)) ou (b=c) e (b<>a)) e triangulo
+
+//saida
+
+escreval("é um triangulo equilatero", equi)
+escreval("é um triangulo isoceles", iso)
+escreval("é um triangulo escaleno", esc)
+
+
+
+
+fimalgoritmo
