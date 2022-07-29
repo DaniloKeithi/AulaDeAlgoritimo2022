@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função : solicite peso e descubra de qual categoria a pessoa faz parte
+// FunÃ§Ã£o : solicite peso e descubra de qual categoria a pessoa faz parte
 // Autor : Danilo Keithi
 // Data : 29/07/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 peso: real
 
@@ -15,72 +15,72 @@ leia(peso)
 
 //processamento
 
-se (peso >= 90.72) então
-escreval(" sua categoria é: Pesado ")
+se (peso >= 90.72) entao
+escreval(" sua categoria Ã©: Pesado ")
 fimse
 
 se (peso >= 78.38) e (peso <= 90.72)  entao
-escreval(" sua categoria é: Cruzado ")
+escreval(" sua categoria Ã©: Cruzado ")
 fimse
 
 se (peso >= 76.2) e (peso <= 78.38)  entao
-escreval(" sua categoria é: Meio Pesado ")
+escreval(" sua categoria Ã©: Meio Pesado ")
 fimse
 
 se (peso >= 73.03) e (peso <= 76.2)  entao
-escreval(" sua categoria é: Super Médio  ")
+escreval(" sua categoria Ã©: Super MÃ©dio  ")
 fimse
 
 se (peso >= 69.85) e (peso <= 73.03)  entao
-escreval(" sua categoria é: Médio ")
+escreval(" sua categoria Ã©: MÃ©dio ")
 fimse
 
 se (peso >= 66.68) e (peso <= 69.85)  entao
-escreval(" sua categoria é: Super Meio médio ")
+escreval(" sua categoria Ã©: Super Meio mÃ©dio ")
 fimse
 
 se (peso >= 63.5) e (peso <= 66.68)  entao
-escreval(" sua categoria é: Leve ")
+escreval(" sua categoria Ã©: Leve ")
 fimse
 
 se (peso >= 61.23) e (peso <= 63.5)  entao
-escreval(" sua categoria é: Super Leve ")
+escreval(" sua categoria Ã©: Super Leve ")
 fimse
 
 se (peso >= 58.97) e (peso <= 61.23)  entao
-escreval(" sua categoria é: Leve ")
+escreval(" sua categoria Ã©: Leve ")
 fimse
 
 se (peso >= 57.15) e (peso <= 58.97)  entao
-escreval(" sua categoria é: Super Pena ")
+escreval(" sua categoria Ã©: Super Pena ")
 fimse
 
 se (peso >= 55.34) e (peso <= 57.15)  entao
-escreval(" sua categoria é: Super Galo ")
+escreval(" sua categoria Ã©: Super Galo ")
 fimse
 
 se (peso >= 53.52) e (peso <= 55.34)  entao
-escreval(" sua categoria é: Galo ")
+escreval(" sua categoria Ã©: Galo ")
 fimse
 
 se (peso >= 51.71) e (peso <= 53.52)  entao
-escreval(" sua categoria é: Super Mosca ")
+escreval(" sua categoria Ã©: Super Mosca ")
 fimse
 
 se (peso >=50.35) e (peso <= 51.71)  entao
-escreval(" sua categoria é: Mosca ")
+escreval(" sua categoria Ã©: Mosca ")
 fimse
 
 se (peso >= 48.99) e (peso <= 50.35)  entao
-escreval(" sua categoria é: Mosca Ligeiro ")
+escreval(" sua categoria Ã©: Mosca Ligeiro ")
 fimse
 
 se (peso >= 47.63) e (peso <= 48.99)  entao
-escreval(" sua categoria é: Palha ")
+escreval(" sua categoria Ã©: Palha ")
 fimse
 
 se (peso <= 46.27)  entao
-escreval(" sua categoria é: Palha ligeiro ")
+escreval(" sua categoria Ã©: Palha ligeiro ")
 fimse
 
 
