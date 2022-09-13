@@ -1,22 +1,27 @@
-Algoritmo "semnome"
+Algoritmo "Exercicio 8"
 // Autor(a)    : Danilo Keithi
-// Data atual  : 06/09/2022
+// Data atual  : 13/09/2022
+
+
 Var
-cont, acu, numero : inteiro
+cont, acu, numero: inteiro
+media: real
+
 
 Inicio
 
 repita
-      para cont de 1 ate 2 faca
-      
-      escreval("Digite um numero para fazer a soma")
-      leia(numero)
-      acu <- cont + acu
-      
-      escreval(acu)
+para cont de 1 ate 3 faca
+
+ escreval("digite um numero para fazer a media")
+ leia(numero)
+             acu <- cont + acu
+             media <- acu/3
+
+          escreval(cont)
 fimpara
 
-ate (numero=0)
+ate numero = 0
 
 
 
